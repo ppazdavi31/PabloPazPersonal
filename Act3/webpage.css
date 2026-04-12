@@ -1,36 +1,66 @@
 body{
-    background-color: bisque;
-    
-
+    background-color: #f5e6d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
+
+/* header */
 .header{
-    color:brown; 
-    font-size: 180px;
-    background-image: url(https://img.chilango.com/2023/02/cafés-de-gatos-cdmx.jpg);
+    color: white;
+    font-size: 50px;
+    text-align: center;
     padding: 60px 20px;
+
+    background-image: url(https://img.chilango.com/2023/02/cafés-de-gatos-cdmx.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
+/* contenido */
 .content{
-     border-color: rgba(244, 0, 0, 0.288);
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+
+    background-color: white;
+    border-radius: 10px;
+
     text-align: justify;
-    border-style: groove;
-    background-color: rgba(244, 0, 0, 0.288);
-    border-radius: 5%;
-}
-.s2{
-    color:brown; 
-    font-size: 80px;
 }
 
-#gcafe{
-    height: 250px;
-    width: 250px;
-    display: block;
+.s2{
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+#gato1{
+    height: 400px; 
+    width: 600px; 
+    display: block; 
     margin: 0 auto;
 }
+
+
+#gcafe{
+    height: 220px;
+    width: 220px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
 
 #next{
     display: block;
-    margin: 0 auto;
-}
+    margin: 20px auto;
+    padding: 10px 20px;
 
+    background-color: brown;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
