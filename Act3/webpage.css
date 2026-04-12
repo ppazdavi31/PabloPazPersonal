@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+    
+
+}
+.header{
+    color:brown; 
+    font-size: 180px;
+    background-image: url(https://img.chilango.com/2023/02/cafés-de-gatos-cdmx.jpg);
+    padding: 60px 20px;
+}
+
+.content{
+     border-color: rgba(244, 0, 0, 0.288);
+    text-align: justify;
+    border-style: groove;
+    background-color: rgba(244, 0, 0, 0.288);
+    border-radius: 5%;
+}
+.s2{
+    color:brown; 
+    font-size: 80px;
+}
+
+#gcafe{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+#next{
+    display: block;
+    margin: 0 auto;
+}
+
