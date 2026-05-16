@@ -339,7 +339,7 @@ class Game {
                 this.blocks.splice(index, 1);
 
                 // Add points with the current multipliers
-                this.score += 10 * scoreMulti * this.scoreMultiplier;
+                this.score += 100 * scoreMulti * this.scoreMultiplier;
 
                 ballSpeed *= speedIncrease;
                 this.createPowerUp(block);
