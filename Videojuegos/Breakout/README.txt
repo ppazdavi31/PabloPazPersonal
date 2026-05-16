@@ -1,5 +1,5 @@
 #Breakout game rules:
-# 1. Move with A and D / <- and -> to the left and right respectively
+# 1. Move with A and D / <- and -> to move the paddle to the left and right respectively
 # 2. Hit the blocks to gain 100 points, the more blocks you hit consecutively without touching the paddle the more score multiplier you will get
 # 3. Score multiplier resets when hitting the paddle and goes up to maximum X2
 # 4. Earth powerup increases size of paddle for 8 seconds
